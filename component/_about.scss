@@ -1,0 +1,98 @@
+#about{
+  background: #F8F8FF;
+  padding: 100px 0;
+  .about{
+    text-align: center;
+    position: relative;
+    .left_arrow{
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgb(27, 191, 0, 0.2);
+      top: 50%;
+      left: -50px;
+      transform: translateY(-50%);
+      .arrow_left{
+        color: #fff;
+        top: 50%;
+        transform: translateY(50%);
+      }
+    }
+    .right_arrow{
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgb(27, 191, 0);
+      top: 50%;
+      right: -50px;
+      transform: translateY(-50%);
+      .arrow_right{
+        color: #fff;
+        top: 50%;
+        transform: translateY(50%);
+      }
+    }
+    h2{
+      padding-bottom: 152px;
+      font-size: 48px;
+      font-weight: 700;
+      color: $heading_color;
+    }
+  }
+  .profile{
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
+    background: #FFF;
+    position: relative;
+    border-radius: 20px;
+    .prfImg1{
+      width: 147px;
+      height: 147px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -60px;
+    }
+    .prfImg2{
+      padding-top: 90px;
+      display: block;
+      margin: 0 auto;
+      padding-left: 20px;
+    }
+    p{
+      font-family: "Paprika", system-ui;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 40px;
+      color: $para_color;
+      width: 800px;
+      padding-top: 33px;
+      padding-bottom: 48px;
+      margin: 0 auto;
+    }
+    h5{
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 40px;
+      color: #221a2c;
+    }
+    span{
+      font-family: "Paprika", system-ui;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      color: $para_color;
+      display: inline-block;
+      padding-bottom: 56px;
+    }
+  }
+
+  .carousel-control-next{
+    .arrow_icon{
+      width: 50px;
+      height: 50px;
+      background: green($color: #000000);
+    }
+  }
+}

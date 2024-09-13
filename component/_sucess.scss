@@ -1,0 +1,30 @@
+#sucess{
+  background: #F9F9FB;
+  padding: 283px 0 285px 0;
+  position: relative;
+  img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+  }
+  .sucess{
+    border-right: 2px solid rgb(79, 88, 95, 0.6);
+    text-align: center;
+    z-index: 1;
+    h2{
+      font-size: 60px;
+      line-height: 68px;
+      color: #1BBF00;
+      font-weight: 800;
+    }
+    h4{
+      font-size: 34px;
+      line-height: 40px;
+      font-weight: 600;
+    }
+  }
+  .last_child{
+    border-right: 0;
+  }
+}

@@ -1,0 +1,47 @@
+#banner {
+  background: url("../image/banner.jpg") no-repeat center;
+  background-size: cover;
+  .overlay {
+    background: $primar_color;
+    opacity: 0.9;
+    padding: 246px 0 254px 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    .text_area {
+      text-align: center;
+      h1 {
+        font-size: 84px;
+        line-height: 100px;
+        font-weight: 600;
+        color: $text_color;
+        text-transform: capitalize;
+        // margin: 0 auto;
+      }
+      p{
+        font-family: "Paprika", system-ui;
+        max-width: 715px;
+        font-size: 24px;
+        line-height: 40px;
+        color: $text_white;
+        font-weight: 400px;
+        margin: 0 auto;
+        margin-top: 20px
+      }
+      .banner_btn {
+        @include btn ($mt: 16px, $mr: 28px, $hv: true, $theme: 0, $border: 2px solid $green_color);
+        text-transform: capitalize;
+      }
+    }
+    .img_one{
+      position: absolute;
+      top: 304px;
+      left: 31px;
+    }
+    .img_two{
+      position: absolute;
+      right: 310px;
+      bottom: 74px;
+    }
+  }
+}

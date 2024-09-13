@@ -1,0 +1,58 @@
+#impact{
+  background: #FFFFFF;
+  padding-top: 91px;
+  position: relative;
+  .text_area{
+    text-align: center;
+    h2{
+      font-size: 48px;
+      font-weight: 700;
+      color: $heading_color;
+      margin-bottom: 23px;
+    }
+    p{
+      font-family: "Paprika", system-ui;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      width: 558px;
+      color: #726e9e;
+      margin: 0 auto;
+    }
+  }
+  .impact_items{
+    display: flex;
+    margin-top: 75px;
+    img{
+      width: 63px;
+      height: 63px;
+    }
+    .textArea{
+      text-align: left;
+      margin-left: 35px;
+      h4{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        color: $heading_color;
+        margin-bottom: 20px;
+      }
+      p{
+        font-family: "Paprika", system-ui;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        color: $para_color;
+        width: 343px;
+      }
+    }
+  }
+  .image_area{
+    margin-top: 20px;
+  }
+  .impact_bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
